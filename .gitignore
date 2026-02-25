@@ -4,6 +4,12 @@ __pycache__/
 *.pyd
 .venv/
 .env
+.env.*
 *.log
-Dockerfile.local
 .aws/
+*.pem
+*.key
+*.crt
+awscliv2.zip
+*.zip
+Dockerfile.local
