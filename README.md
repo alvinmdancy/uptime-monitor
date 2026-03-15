@@ -1,4 +1,4 @@
-# Uptime Monitor
+Uptime Monitor
 
 A simple uptime monitoring app that lets you check if a website is reachable.
 
@@ -6,17 +6,7 @@ This project was built to learn cloud deployment, Docker, and AWS ECS.
 
 ---
 
-## 🚀 Live Demo
-
-
-http://13.217.33.231:8000/monitor
-
-
-> Note: The IP may change when the container restarts.
-
----
-
-## 📌 Features
+Features
 
 - Enter a URL and check if it’s up
 - Shows HTTP status (like 200, 404, etc.)
@@ -26,7 +16,7 @@ http://13.217.33.231:8000/monitor
 
 ---
 
-## 🛠 Tech Stack
+Tech Stack
 
 - Python
 - FastAPI
@@ -37,17 +27,7 @@ http://13.217.33.231:8000/monitor
 
 ---
 
-## 🧠 What I Learned
-
-- How to containerize an app with Docker
-- How to push images to AWS ECR
-- How to run containers on ECS Fargate
-- How networking works (ENI, public IPs, security groups)
-- How to debug deployment issues
-
----
-
-## 📂 Project Structure
+Project Structure
 
 
 uptime-monitor/
@@ -61,7 +41,7 @@ uptime-monitor/
 
 ---
 
-## ▶️ Run Locally
+Run Locally
 
 ### 1. Clone the repo
 
@@ -97,7 +77,7 @@ http://127.0.0.1:8000/monitor
 
 ---
 
-## 🐳 Run with Docker
+Run with Docker
 
 
 docker build -t uptime-monitor .
@@ -106,7 +86,7 @@ docker run -p 8000:8000 uptime-monitor
 
 ---
 
-## ☁️ Deployment Overview
+Deployment Overview
 
 1. Build Docker image  
 2. Push image to AWS ECR  
@@ -115,7 +95,7 @@ docker run -p 8000:8000 uptime-monitor
 
 ---
 
-## ⚠️ Notes
+Notes
 
 - This project uses in-memory storage, so data resets when the container restarts.
 - Public IP changes when the ECS task restarts.
@@ -123,7 +103,7 @@ docker run -p 8000:8000 uptime-monitor
 
 ---
 
-## 📈 Future Improvements
+Future Improvements
 
 - Stable URL using Load Balancer
 - Store targets in DynamoDB
@@ -133,7 +113,7 @@ docker run -p 8000:8000 uptime-monitor
 
 ---
 
-## 👤 Author
+Author
 
 **Alvin Dancy**  
 https://github.com/alvinmdancy
